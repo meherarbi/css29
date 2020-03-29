@@ -1,0 +1,37 @@
+
+nav,a:visited {
+          color: blue;
+      }	  
+nav,a:hover {
+          color: gray;
+      }
+nav,a:active {
+          color: red;
+      }	 	
+article  { padding-left :20%;
+padding-right:10%;
+	
+} 
+form { margin-left :20%;
+margin-right:20%;
+padding-top:5%;
+	
+} 
+          .es,.ms{
+        display: inline;
+      }
+.ah,.ab {
+display: inline-block;
+ }
+ 
+.zed{ margin-left:500px;}
+.zed *{padding:20px;}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .zed {
+    width: 100%;
+  }  
+  
+h3{font-family:Georgia;} 
